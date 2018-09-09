@@ -1,6 +1,6 @@
 {
   "name": "@neutrinojs/jest",
-  "version": "9.0.0-0",
+  "version": "8.3.0",
   "description": "Neutrino preset for testing Neutrino projects with Jest",
   "main": "src/index.js",
   "keywords": [
@@ -24,8 +24,8 @@
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@babel/plugin-transform-modules-commonjs": "^7.0.0",
-    "@neutrinojs/compile-loader": "9.0.0-0",
-    "@neutrinojs/loader-merge": "9.0.0-0",
+    "@neutrinojs/compile-loader": "8.3.0",
+    "@neutrinojs/loader-merge": "8.3.0",
     "babel-plugin-jest-hoist": "^23.0.0",
     "deepmerge": "^1.5.2",
     "eslint-plugin-jest": "^21.21.0",
@@ -33,6 +33,6 @@
   },
   "peerDependencies": {
     "jest": "^23.0.0",
-    "neutrino": "^9.0.0-0"
+    "neutrino": "^8.3.0"
   }
 }
